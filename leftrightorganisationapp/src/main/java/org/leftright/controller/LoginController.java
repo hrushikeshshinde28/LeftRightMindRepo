@@ -1,5 +1,6 @@
 package org.leftright.controller;
 
+import lombok.extern.slf4j.XSlf4j;
 import org.leftright.model.Login;
 import org.leftright.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/")
+@XSlf4j
 public class LoginController {
 
     @Autowired
